@@ -1,0 +1,59 @@
+.label1{
+    width: 100px;
+}
+.span1{
+    color: red;
+}
+#m1{
+    margin-top: 65px;
+}
+.input1{
+    background-color: yellow;
+    color: black;
+    width: 200px;
+}
+.span2{
+    color: blue;
+    font-size: 12px;
+}
+.input2{
+    background-color: rgb(134, 255, 97);
+    color: black;
+    border: none;
+    width: 200px;
+}
+.class1{
+    background-color: rgb(134, 255, 97);
+    color: black;
+    border: none;
+    width: 200px;
+    margin-top: 10px;
+    height: 30px;
+}
+.label2{
+    color: blue;
+    font-size: 12px;
+    width: 100px;
+}
+.input3{
+    background-color: rgb(224, 224, 224);
+    color: black;
+    border: none;
+    width: 200px;
+}
+.span3{
+    color: blue;
+    font-size: 12px;
+}
+.btn1{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(175, 2, 36);
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+.span4{
+    color: black;
+    font-size: 12px;
+}

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Billing sytem</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="one.js"></script>
+</head>
+
+<body>
+  <h1 class="text-center display-4">Simple Cafe Billing</h1>
+  <h6 class="text-center"></h6>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <label class="label1"><span class="span1">Order No</span></label>
+        <input type="text" placeholder="#93839" readonly class="input1">
+        <br>
+        <label class="label1"><span class="span2">Drinks</span></label>
+        <input type="text" class="input2" id="a1">
+        <br>
+        <label class="label1"><span class="span2">French Fries</span></label>
+        <input type="text" class="input2" id="a2">
+        <br>
+        <label class="label1"><span class="span2">Lunch</span></label>
+        <input type="text" class="input2" id="a3">
+        <br>
+        <label class="label1"><span class="span2">Burger</span></label>
+        <input type="text" class="input2" id="a4">
+        <br>
+        <label class="label1"><span class="span2">Pizza</span></label>
+        <input type="text" class="input2" id="a5">
+        <br>
+        <label class="label1"><span class="span3">Cheese Burger</span></label>
+        <input type="text" class="input2" id="a6">
+        <br>
+        <br>
+        <div>
+          <button class="btn1" onclick="total()" >Total</button>
+        </div>
+      </div>
+
+
+
+      <div class="col-md-4 mt-5  " id="secdiv">
+
+
+        <div class="row align-items-center">
+
+          <label class="label2">
+            Service Charges
+          </label >
+          <div id="serv" class="class1 ml-4">
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <label  class="label2">
+           Tax
+          </label >
+          <div  id="tax" class="class1 ml-4" >
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <label class="label2">
+            SubTotal
+          </label >
+          <div id="subt" class="class1 ml-4">
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <label class="label2">
+            Total
+          </label >
+          <div  id="tol" class="class1 ml-4">
+          </div>
+        </div>
+
+        
+
+      </div>
+
+
+      <div class="col-md-4">
+        <table class="table">
+          <tr>
+            <th scope="col">Items</th>
+            <th scope="col">Price</th>
+          </tr>
+          <tbody>
+            <tr>
+              <td>French fries</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td>Lunch</td>
+              <td>100</td>
+            </tr>
+            <tr>
+              <td>Burger</td>
+              <td>190</td>
+            </tr>
+            <tr>
+              <td>Pizza</td>
+              <td>300</td>
+            </tr>
+            <tr>
+              <td>Cheese Burger</td>
+              <td>290</td>
+            </tr>
+            <tr>
+              <td>Drinks</td>
+              <td>40</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  
+
+</body>
+
+</html>
